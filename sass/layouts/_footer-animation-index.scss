@@ -1,0 +1,6 @@
+.footer__wiggle{
+    animation: wiggle 2s infinite;
+    &:hover {
+    animation: none;
+    }
+}

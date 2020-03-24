@@ -1,0 +1,185 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header*/
+.header {
+  display: flex;
+  background: #00695C;
+  color: goldenrod;
+  margin-top: 0px;
+  font-size: 3.5rem;
+  align-items: center;
+  height: 6rem;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.title-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+/* bolc principal*/
+.main-bloc {
+  width: 75%;
+  margin-top: 2rem;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff2f7;
+  font-family: "caveat", sans-serif;
+  box-shadow: 0px 0px 10px #c7c7c7;
+}
+.main-bloc * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-bloc__header {
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  font-family: "kaushan script", sans-serif;
+  background: linear-gradient(to right, #336d33, #9fff4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-bloc__section {
+  position: relative;
+  align-items: center;
+}
+
+.main-bloc__section__titles {
+  font-size: 2rem;
+  margin-bottom: 0;
+  max-width: 25%;
+  text-align: center;
+}
+.main-bloc__section__titles::before {
+  content: "";
+  background: linear-gradient(to right, #336d33, #9fff4c);
+  width: 25%;
+  height: 0.4rem;
+  display: flex;
+  position: absolute;
+  left: 2rem;
+  border-radius: 80%;
+}
+.main-bloc__section__titles::after {
+  content: "";
+  background: linear-gradient(to right, #9fff4c, #336d33);
+  width: 25%;
+  height: 0.4rem;
+  display: flex;
+  position: absolute;
+  right: 2rem;
+  border-radius: 80%;
+}
+
+.main-bloc__section__food {
+  width: 90%;
+  padding-left: 0;
+}
+.main-bloc__section__food li {
+  margin-bottom: 2rem;
+}
+.main-bloc__section__food p {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.main-bloc__section__food__price {
+  font-weight: bold;
+}
+
+.main-bloc__footer {
+  flex-direction: row;
+  align-items: center;
+}
+.main-bloc__footer h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "devonshire", cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  height: 3rem;
+  background: #00695C;
+  color: goldenrod;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer__wiggle {
+  color: goldenrod;
+  margin: 0rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/*animation*/
+.main-bloc__section__titles__underline::after {
+  content: "";
+  border-bottom: 2px solid currentcolor;
+  width: 100%;
+  height: 2px;
+  transform-origin: 0% 100%;
+  transform: scaleX(0);
+  transition: transform 1s;
+}
+.main-bloc__section__titles__underline:hover::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 768px) {
+  .main-bloc__section__food li {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  html {
+    font-size: 80%;
+  }
+
+  .main-bloc__section__titles::before {
+    left: 5%;
+    width: 30%;
+  }
+  .main-bloc__section__titles::after {
+    right: 5%;
+    width: 30%;
+  }
+
+  .main-bloc {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=menu4.css.map */

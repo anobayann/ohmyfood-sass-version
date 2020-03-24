@@ -1,0 +1,47 @@
+.btn-next {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
+  
+  .btn-next__saving {
+    display: flex;
+    background: #00695C;
+    color: goldenrod;
+    width: 18rem;
+    height: 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .btn-next__saving:after {
+    animation: dotty 2s infinite;
+    content: '';
+  }
+  
+  @keyframes dotty {
+    0% {
+      content: '';
+    }
+  
+    25% {
+      content: '.';
+    }
+  
+    50% {
+      content: '..';
+    }
+  
+    75% {
+      content: '...';
+    }
+  
+    100% {
+      content: '';
+    }
+  }

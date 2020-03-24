@@ -1,0 +1,22 @@
+@import "./utils/variables";
+@import "./base/base";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/footer-animation-meals";
+  
+
+  
+  .bigtitle {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 80%;
+    }
+  }
