@@ -1,13 +1,14 @@
 @import "./utils/variables";
 @import "./base/base";
+@import "./components/name-restaurant-header";
 @import "./layouts/header";
 @import "./layouts/main-bloc_food_title-lines";
-@import "./pages/meal3";
 @import "./layouts/footer";
 @import "./layouts/footer-animation-meals";
 @import "./layouts/main-bloc_meals";
-@import "./layouts/main-bloc_section";
-@import "./components/name-restaurant-header";
+@import "./layouts/pmeals";
+@import "./layouts/underline-animation";
+@import "./pages/meal3";
   
   
   
@@ -18,29 +19,4 @@
  
   
   
-  @media (min-width: 768px) {
-    .main-bloc__section__food li {
-      flex-direction: row;
-      justify-content: space-between;
-    }
   
-    html {
-      font-size: 80%;
-    }
-  
-    .main-bloc__section__titles1, .main-bloc__section__titles2, .main-bloc__section__titles3 {
-      &::before {
-        left: 5%;
-        width: 30%;
-      }
-  
-      &::after {
-        right: 5%;
-        width: 30%;
-      }
-    }
-  
-    .main-bloc {
-      width: 75%;
-    }
-  }

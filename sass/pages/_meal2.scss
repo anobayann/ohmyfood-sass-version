@@ -1,21 +1,22 @@
 .main-bloc {
     
     background-color: $color-meal2-background;
-    font-family: 'crimson text', sans-serif;
-   
+    font-family: $police-meal2;
+    &__header {
+      align-items: center;
+      font-size: 2.5rem;
+      font-weight: 100;
+      padding-top: 3rem;
+      margin-bottom: 0;
+      font-family: $police-meal2-title;
+      background: linear-gradient(to right, #fb5300, #3333ee);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     
+      
   }
-  
-  .main-bloc__header {
-    align-items: center;
-    font-size: 2.5rem;
-    font-weight: 100;
-    padding-top: 3rem;
-    margin-bottom: 0;
-    font-family: 'kurale', sans-serif;
-    background: linear-gradient(to right, #fb5300, #3333ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+}
   
   .main-bloc__section {
     
@@ -35,14 +36,8 @@
   
   .main-bloc__section__titles {
     font-size: 2rem;
-    &::before {
-      background-color: currentColor;
-    }
-  
-    &::after {
-      
-      background-color: currentColor;
-     
+    &::before, &::after {
+      background-color: currentColor;  
     }
   }
   
