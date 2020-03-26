@@ -150,11 +150,6 @@ a {
   margin-bottom: 0;
   text-align: center;
 }
-@media (min-width: 768px) {
-  .main-bloc__section__food p {
-    font-size: 2.5rem;
-  }
-}
 .main-bloc__section__food__price {
   font-weight: bold;
 }

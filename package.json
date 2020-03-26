@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/style.scss:style.css"
+    "sass": "sass --watch sass:./css-html",
+    "prefix": "postcss ./css-html/style.css --use autoprefixer -d ./css-html/prefixed/"
+    
   },
   "repository": {
     "type": "git",
@@ -12,6 +14,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/anobayann/ohmyfood-sass-version/issues"
   },

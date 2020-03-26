@@ -150,11 +150,6 @@ a {
   margin-bottom: 0;
   text-align: center;
 }
-@media (min-width: 768px) {
-  .main-bloc__section__food p {
-    font-size: 2.5rem;
-  }
-}
 .main-bloc__section__food__price {
   font-weight: bold;
 }
@@ -173,34 +168,37 @@ a {
 }
 
 .main-bloc {
-  background-color: #fff2f7;
+  background-color: #f0f0f0;
   font-family: "Caveat", sans-serif;
 }
 .main-bloc__header {
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 100;
   padding-top: 3rem;
   margin-bottom: 0;
-  font-family: "kaushan script", sans-serif;
-  background: linear-gradient(to right, #336d33, #9fff4c);
+  font-family: "dancing script", sans-serif;
+  background: linear-gradient(to right, #070c9a, #1cbaea);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .main-bloc__section__titles {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
-.main-bloc__section__titles::before {
-  background: linear-gradient(to right, #336d33, #9fff4c);
+.main-bloc__section__titles--1::before, .main-bloc__section__titles--1::after {
+  background-color: #070c9a;
 }
-.main-bloc__section__titles::after {
-  background: linear-gradient(to right, #9fff4c, #336d33);
+.main-bloc__section__titles--2::before, .main-bloc__section__titles--2::after {
+  background-color: #166fb1;
+}
+.main-bloc__section__titles--3::before, .main-bloc__section__titles--3::after {
+  background-color: #1cbaea;
 }
 
 .main-bloc__section__food p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
-/*# sourceMappingURL=menu4.css.map */
+/*# sourceMappingURL=menu3.css.map */

@@ -1,6 +1,11 @@
 html {
   font-size: 62.5%;
 }
+@media (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
 
 body {
   margin: auto;
@@ -12,7 +17,6 @@ a {
   text-decoration: none;
 }
 
-/*header*/
 .header {
   display: flex;
   background: #00695C;
@@ -26,14 +30,6 @@ a {
   font-weight: 700;
 }
 
-.bigtitle {
-  font-size: 4rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-/*footer*/
 .footer {
   display: flex;
   height: 3rem;
@@ -45,17 +41,38 @@ a {
   bottom: 0px;
   width: 100%;
 }
-.footer h5 {
+.footer__wiggle {
   color: goldenrod;
   margin: 0rem 2rem;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 80%;
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
   }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.footer__wiggle:hover {
+  animation: wiggle 2s infinite;
+}
+
+.resto-title-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 /*# sourceMappingURL=mlegales.css.map */
