@@ -1,5 +1,5 @@
 .main-bloc__section__food {
-	width: 90%;
+	width: 92%;
 	padding-left: 0;
 	li {
 		margin-bottom: 2rem;
@@ -13,7 +13,11 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		text-align: center;
-		
+		@media (min-width: 768px) {
+			text-align: left;
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}	
 	}
 	&__price {
 		font-weight: bold;

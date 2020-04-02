@@ -1,0 +1,128 @@
+.resto-title-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.main-bloc__section__titles {
+  margin-bottom: 0;
+  max-width: 25%;
+  text-align: center;
+}
+.main-bloc__section__titles::before, .main-bloc__section__titles::after {
+  content: "";
+  width: 25%;
+  height: 0.4rem;
+  display: flex;
+  position: absolute;
+  border-radius: 80%;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__titles::before, .main-bloc__section__titles::after {
+    width: 30%;
+  }
+}
+.main-bloc__section__titles::before {
+  left: 5%;
+}
+.main-bloc__section__titles::after {
+  right: 5%;
+}
+
+.footer__wiggle:hover {
+  animation: wiggle 2s infinite;
+}
+
+.main-bloc {
+  width: 90%;
+  margin: 2rem auto 6rem auto;
+  box-shadow: 0px 0px 10px #c7c7c7;
+}
+.main-bloc * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-bloc__section {
+  position: relative;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .main-bloc {
+    width: 75%;
+  }
+}
+
+.main-bloc__section__food {
+  width: 92%;
+  padding-left: 0;
+}
+.main-bloc__section__food li {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__food li {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.main-bloc__section__food p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__food p {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+.main-bloc__section__food__price {
+  font-weight: bold;
+}
+
+.main-bloc__section__titles__underline::after {
+  content: "";
+  border-bottom: 2px solid currentcolor;
+  width: 100%;
+  height: 2px;
+  transform-origin: 0% 100%;
+  transform: scaleX(0);
+  transition: transform 1s;
+}
+.main-bloc__section__titles__underline:hover::after {
+  transform: scaleX(1);
+}
+
+.main-bloc {
+  background-color: #fff2f7;
+  font-family: "Caveat", cursive;
+}
+.main-bloc__header {
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  font-family: "kaushan script", cursive;
+  background: linear-gradient(to right, #336d33, #9fff4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-bloc__section__titles {
+  font-size: 2rem;
+}
+.main-bloc__section__titles::before {
+  background: linear-gradient(to right, #336d33, #9fff4c);
+}
+.main-bloc__section__titles::after {
+  background: linear-gradient(to right, #9fff4c, #336d33);
+}
+
+.main-bloc__section__food p {
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=menu4.css.map */

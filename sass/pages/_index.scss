@@ -40,7 +40,7 @@
     h2{
       @media (min-width: 768px)
       {
-        font-size: 250%;
+        font-size: 2.8rem;
       }
     }
   }
@@ -51,7 +51,6 @@
     i {
       font-size: 2rem;
       background: linear-gradient(to right, #f00d0d, #fdc270);
-      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px)
@@ -85,7 +84,6 @@
       font-family: $police-meal2-title;
       font-size: 1rem;
       background: linear-gradient(to right, #fb5300, #3333ee);
-      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px)
@@ -95,6 +93,7 @@
     h2 {
       font-family: $police-meal2-menu;
       color: #e2a552;
+      font-weight: 200;
     }
   }
   
@@ -104,7 +103,6 @@
     h3 {
       font-family: $police-meal3-title;
       background: linear-gradient(to right, #262a9f, #3397af);
-      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px)
@@ -123,7 +121,6 @@
     h3 {
       font-family: $police-meal4-title;
       background: linear-gradient(to right, #336d33, #9fff4c);
-      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px)

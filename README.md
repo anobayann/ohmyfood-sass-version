@@ -1,0 +1,4 @@
+- prefixed
+- corriger html
+- verifier varibales, mixins, ect...
+- image de meta
