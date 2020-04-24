@@ -8,6 +8,7 @@
     align-items: flex-start;
     margin-top: 4rem;
     
+    
   
     li {
       
@@ -38,6 +39,7 @@
       {text-align: center;}
     }
     h2{
+      
       @media (min-width: 768px)
       {
         font-size: 2.8rem;
@@ -53,6 +55,7 @@
       background: linear-gradient(to right, #f00d0d, #fdc270);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      
       @media (min-width: 768px)
       {font-size: 3rem;}   
     }

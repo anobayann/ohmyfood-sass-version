@@ -1,4 +1,4 @@
 .footer__wiggle:hover
 {
-    animation: wiggle 2s infinite;
+    animation: wiggle 2s -1.8s infinite;/*nom, frequence, retard, nmb de fois*/
 }
