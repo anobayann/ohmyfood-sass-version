@@ -1,9 +1,11 @@
+/*Nom du restaurant sur le header de chaque menu*/
 .resto-title-header {
   text-align: center;
   margin-bottom: 0.5rem;
   font-size: 1.8rem;
 }
 
+/* lignes sur les cotes des titres des menus*/
 .main-bloc__section__titles {
   margin-bottom: 0;
   max-width: 25%;
@@ -34,6 +36,7 @@
   /*nom, frequence, retard, nmb de fois*/
 }
 
+/*cadres des menus*/
 .main-bloc {
   width: 90%;
   margin: 2rem auto 6rem auto;
@@ -54,6 +57,7 @@
   }
 }
 
+/*mise en page des paragraphes des menus*/
 .main-bloc__section__food {
   width: 92%;
   padding-left: 0;
@@ -146,7 +150,6 @@
 .main-bloc__footer i {
   font-size: 2.5rem;
   background: linear-gradient(to right, #f00d0d, #fdc270);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
