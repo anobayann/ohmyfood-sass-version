@@ -7,15 +7,14 @@
   display: flex;
   background: #00695C;
   color: goldenrod;
-  width: 43.6vw;
-  height: 4.94vh;
-  border-radius: 7px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
   font-weight: 500;
   font-size: 1.5rem;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 6rem;
 }
 .btn-next__saving:after {
   animation: dotty 2s infinite;
@@ -46,11 +45,6 @@
   animation: none;
 }
 
-main {
-  margin: auto;
-  align-items: center;
-}
-
 nav {
   margin: 2rem;
 }
@@ -66,20 +60,15 @@ nav {
   box-shadow: 0px 0px 10px #c7c7c7;
   margin: 3%;
   width: 35.6vw;
-  max-width: 15rem;
-  height: 31.6vh;
-  max-height: 23rem;
-}
-@media (min-width: 768px) {
-  .meal li {
-    padding: 1rem;
-  }
+  height: 50.23vw;
 }
 .meal a {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: inherit;
+  height: inherit;
   transition: 0.5s;
 }
 .meal a:hover {
@@ -88,31 +77,20 @@ nav {
 }
 .meal h3 {
   margin-bottom: 0;
+  font-size: 4vw;
 }
-@media (min-width: 768px) {
-  .meal h3 {
-    text-align: center;
-  }
-}
-@media (min-width: 768px) {
-  .meal h2 {
-    font-size: 2.8rem;
-  }
+.meal h2 {
+  font-size: 4vw;
 }
 
 .meal__meal-1 {
   background: #ffeada;
 }
 .meal__meal-1 i {
-  font-size: 2rem;
+  font-size: 5vw;
   background: linear-gradient(to right, #f00d0d, #fdc270);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-@media (min-width: 768px) {
-  .meal__meal-1 i {
-    font-size: 3rem;
-  }
 }
 .meal__meal-1 h3 {
   margin-top: 0px;
@@ -120,12 +98,6 @@ nav {
   font-family: "Devonshire", serif;
   font-weight: 400;
   color: black;
-  font-size: 1.5rem;
-}
-@media (min-width: 768px) {
-  .meal__meal-1 h3 {
-    font-size: 2.1rem;
-  }
 }
 .meal__meal-1 h2 {
   font-family: "itim", cursive;
@@ -140,15 +112,10 @@ nav {
 }
 .meal__meal-2 h3 {
   font-family: "kurale", serif;
-  font-size: 1rem;
+  font-size: 3vw;
   background: linear-gradient(to right, #fb5300, #3333ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-@media (min-width: 768px) {
-  .meal__meal-2 h3 {
-    font-size: 1.8rem;
-  }
 }
 .meal__meal-2 h2 {
   font-family: "abril fatface", cursive;
@@ -165,11 +132,6 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media (min-width: 768px) {
-  .meal__meal-3 h3 {
-    font-size: 2.2rem;
-  }
-}
 .meal__meal-3 h2 {
   font-family: "chilanka", cursive;
   color: #3397af;
@@ -184,14 +146,35 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media (min-width: 768px) {
-  .meal__meal-4 h3 {
-    font-size: 1.9rem;
-  }
-}
 .meal__meal-4 h2 {
   font-family: "chilanka", cursive;
   color: #3da33d;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .meal li {
+    width: 17.8vw;
+    height: 25.12vw;
+    margin: 1vw 3vw;
+  }
+  .meal li i {
+    font-size: 2.5vw;
+  }
+  .meal li h2 {
+    font-size: 2vw;
+  }
+  .meal li h3 {
+    font-size: 2vw;
+  }
+
+  .meal__meal-2 h3 {
+    font-size: 1.5vw !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,13 @@
 
 @import "../../node_modules/normalize-scss/sass/normalize/import-now";
+
 html {
 	font-size: 10px;
 	line-height: unset;
+
 	
 	@media (min-width: 768px){
-		font-size: 80%;
+		font-size: 13px;
 	}
 		
 	

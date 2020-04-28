@@ -1,11 +1,8 @@
 
-main{
-  margin: auto;
-  align-items: center;
-  
-}
+
 nav{
   margin: 2rem;
+
 }
 .meal {
     display: flex;
@@ -13,23 +10,14 @@ nav{
     padding-left: 0px;
     margin: auto;
     justify-content: center;
-    
-    
-    
-    
-    
   
     li {
       
       box-shadow: 0px 0px 10px #c7c7c7;
       margin: 3%;
       width: 35.6vw;
-      max-width: 15rem;
-      height: 31.6vh;
-      max-height: 23rem;
-      @media (min-width: 768px){
-        padding: 1rem;
-      }    
+      height: 50.23vw;
+       
     }
   
     a {
@@ -37,6 +25,8 @@ nav{
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      width: inherit;
+      height: inherit;
       
       
       transition: 0.5s; 
@@ -48,29 +38,24 @@ nav{
   
     h3 {
       margin-bottom: 0;
-      @media (min-width: 768px)
-      {text-align: center;}
+      font-size: 4vw;
+      
     }
     h2{
+      font-size: 4vw;
       
-      @media (min-width: 768px)
-      {
-        font-size: 2.8rem;
-      }
     }
-  }
+}
   
-  .meal__meal-1 {
+.meal__meal-1 {
     background: $color-meal1-background;
   
     i {
-      font-size: 2rem;
+      font-size: 5vw;
       background: linear-gradient(to right, #f00d0d, #fdc270);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       
-      @media (min-width: 768px)
-      {font-size: 3rem;}   
     }
   
     h3 {
@@ -79,10 +64,8 @@ nav{
       font-family: $police-meal1-title;
       font-weight: 400;
       color: black;
-      font-size: 1.5rem;
-      @media (min-width: 768px)
-      {font-size: 2.1rem;}  
     }
+      
   
     h2 {
       font-family: $police-meal1-menu;
@@ -98,18 +81,17 @@ nav{
   
     h3 {
       font-family: $police-meal2-title;
-      font-size: 1rem;
+      font-size: 3vw;
       background: linear-gradient(to right, #fb5300, #3333ee);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      @media (min-width: 768px)
-      {font-size: 1.8rem;}
     }
   
     h2 {
       font-family: $police-meal2-menu;
       color: #e2a552;
       font-weight: 200;
+      
     }
   }
   
@@ -121,8 +103,6 @@ nav{
       background: linear-gradient(to right, #262a9f, #3397af);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      @media (min-width: 768px)
-      {font-size: 2.2rem;}
     }
   
     h2 {
@@ -139,8 +119,6 @@ nav{
       background: linear-gradient(to right, #336d33, #9fff4c);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      @media (min-width: 768px)
-      {font-size: 1.9rem;}
     }
   
     h2 {
@@ -150,4 +128,31 @@ nav{
   }
 
 
-  
+  @media (max-width: 767px) and (orientation: landscape){
+    nav{
+      display: flex;
+      justify-content: center;
+
+    }
+    
+
+    .meal li{
+      width: 17.8vw;
+      height: 25.12vw;
+      margin: 1vw 3vw;
+    
+      i{
+      font-size: 2.5vw;
+      }
+      h2{
+      font-size: 2vw;
+      }
+      h3{
+      font-size: 2vw;
+      }
+    }
+    .meal__meal-2 h3{
+      font-size: 1.5vw !important;
+    
+    }
+  }
