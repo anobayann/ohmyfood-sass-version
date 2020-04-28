@@ -450,7 +450,7 @@ template {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
   line-height: unset;
 }
 @media (min-width: 768px) {
@@ -476,7 +476,7 @@ a {
   margin-top: 0;
   font-size: 3.5rem;
   align-items: center;
-  height: 6rem;
+  height: 10.26vh;
   justify-content: center;
   margin-bottom: 0;
   font-weight: 700;
@@ -484,7 +484,7 @@ a {
 
 .footer {
   display: flex;
-  height: 3rem;
+  height: 5.78vh;
   background: #00695C;
   justify-content: space-between;
   align-items: center;
