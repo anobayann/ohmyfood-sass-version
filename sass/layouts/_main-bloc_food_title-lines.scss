@@ -2,7 +2,7 @@
 .main-bloc__section__titles {
     
     margin-bottom: 0;
-    max-width: 25%;
+    max-width: 40%;
     text-align: center;
 
     &::before, &::after
@@ -14,15 +14,14 @@
       display: flex;
       position: absolute;
       border-radius: 80%;
-      @media (min-width: 768px){
-        width: 30%;}
+      
     }
   
     &::before {
-      left: 5%;
+      left: 3.5%;
       }
     &::after {
-      right: 5%;
+      right: 3.5%;
       }
     }
   

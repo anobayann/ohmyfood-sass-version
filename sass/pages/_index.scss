@@ -128,7 +128,7 @@ nav{
   }
 
 
-  @media (max-width: 767px) and (orientation: landscape){
+  /*@media (max-width: 767px) and (orientation: landscape){
     nav{
       display: flex;
       justify-content: center;
@@ -137,22 +137,28 @@ nav{
     
 
     .meal li{
-      width: 17.8vw;
-      height: 25.12vw;
+      
       margin: 1vw 3vw;
     
-      i{
-      font-size: 2.5vw;
-      }
-      h2{
-      font-size: 2vw;
-      }
-      h3{
-      font-size: 2vw;
-      }
-    }
-    .meal__meal-2 h3{
-      font-size: 1.5vw !important;
+      
     
+    }
+  }*/
+  @media (min-width: 768px), (max-width: 767px) and (orientation: landscape) {
+    .meal li {
+      width: 17.8vw;
+      height: 25.12vw;
+        i{
+        font-size: 2.5vw;
+        }
+        h2{
+        font-size: 2vw;
+        }
+        h3{
+        font-size: 2vw;
+        }
+      }
+      .meal__meal-2 h3{
+        font-size: 1.5vw !important;
     }
   }

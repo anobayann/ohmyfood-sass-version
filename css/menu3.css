@@ -1,14 +1,7 @@
-/*Nom du restaurant sur le header de chaque menu*/
-.resto-title-header {
-  text-align: center;
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
-}
-
 /* lignes sur les cotes des titres des menus*/
 .main-bloc__section__titles {
   margin-bottom: 0;
-  max-width: 25%;
+  max-width: 40%;
   text-align: center;
 }
 .main-bloc__section__titles::before, .main-bloc__section__titles::after {
@@ -19,16 +12,11 @@
   position: absolute;
   border-radius: 80%;
 }
-@media (min-width: 768px) {
-  .main-bloc__section__titles::before, .main-bloc__section__titles::after {
-    width: 30%;
-  }
-}
 .main-bloc__section__titles::before {
-  left: 5%;
+  left: 3.5%;
 }
 .main-bloc__section__titles::after {
-  right: 5%;
+  right: 3.5%;
 }
 
 .footer__wiggle:hover {
@@ -63,12 +51,14 @@
   padding-left: 0;
 }
 .main-bloc__section__food li {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 @media (min-width: 768px) {
   .main-bloc__section__food li {
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
 }
 .main-bloc__section__food p {
@@ -79,8 +69,6 @@
 @media (min-width: 768px) {
   .main-bloc__section__food p {
     text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 }
 .main-bloc__section__food__price {
@@ -103,12 +91,13 @@
 .main-bloc {
   background-color: #f0f0f0;
   font-family: "Caveat", cursive;
+  padding-bottom: 10rem;
 }
 .main-bloc__header {
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 4vw;
   font-weight: 100;
-  padding-top: 3rem;
+  padding-top: 5rem;
   margin-bottom: 0;
   font-family: "dancing script", cursive;
   background: linear-gradient(to right, #070c9a, #1cbaea);
@@ -117,7 +106,12 @@
 }
 
 .main-bloc__section__titles {
-  font-size: 2.5rem;
+  font-size: 3.5vw;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__titles {
+    font-size: 3vw;
+  }
 }
 .main-bloc__section__titles--1::before, .main-bloc__section__titles--1::after {
   background-color: #070c9a;
@@ -129,8 +123,14 @@
   background-color: #1cbaea;
 }
 
-.main-bloc__section__food p {
-  font-size: 2rem;
+.main-bloc__section__food__meal, .main-bloc__section__food__price {
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__food__meal, .main-bloc__section__food__price {
+    font-size: 2.4vw;
+  }
 }
 
 /*# sourceMappingURL=menu3.css.map */

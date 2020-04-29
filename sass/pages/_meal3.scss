@@ -3,11 +3,12 @@
    
     background-color: $color-meal3-background;
     font-family: $police-meal3;
+    padding-bottom: 10rem;
     &__header {
       align-items: center;
-      font-size: 3.5rem;
+      font-size: 4vw;
       font-weight: 100;
-      padding-top: 3rem;
+      padding-top: 5rem;
       margin-bottom: 0;
       font-family: $police-meal3-title;
       background: linear-gradient(to right, #070c9a, #1cbaea);
@@ -20,7 +21,10 @@
   
   
   .main-bloc__section__titles {
-    font-size: 2.5rem;
+    font-size: 3.5vw;
+    @media (min-width: 768px){
+      font-size: 3vw;
+    }
     &--1 {
       &::before,  &::after {
         background-color: #070c9a;
@@ -36,7 +40,13 @@
   
   }
   
-  .main-bloc__section__food p
-  { 
-      font-size: 2rem;}
+  .main-bloc__section__food__meal, .main-bloc__section__food__price{
+    font-size: 3.5vw;
+    font-weight: bold;
+    @media(min-width: 768px){
+      font-size: 2.4vw;
+    }
+    
+   
+  }
    

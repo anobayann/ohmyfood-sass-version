@@ -3,11 +3,14 @@
 	
 	background-color: $color-meal1-background;
 	font-family: $police-meal1;
+	padding-right: 7vw;
+	padding-left: 7vw;
+	
 }
 .main-bloc__header {
 	align-items: center;
 	i {
-		font-size: 4rem;
+		font-size: 8vw;
 		margin-top: 3rem;
 		background: linear-gradient(to right,#f00d0d ,#fdc270);
 		-webkit-background-clip: text;
@@ -16,15 +19,17 @@
 }
 .main-bloc__header__title {
 	font-family: $police-meal1-title;
-	font-size: 3rem;
+	font-size: 7vw;
 	font-weight: 100;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .main-bloc__section__titles {
-	font-size: 2rem;
-	
+    font-size: 3.5vw;
+    @media (min-width: 768px){
+      font-size: 2.8vw;
+    }
 	&::before, &::after {
 		
 		background: black;
@@ -32,9 +37,7 @@
 	}
 	 
 }
-.main-bloc__section__food p
-	{
-		font-size: 1.5rem;}
+
 	
 .main-bloc__footer {
 	flex-direction: row;
@@ -43,15 +46,29 @@
 		display: flex;
 		justify-content: center;
 		font-family: 'devonshire', cursive;
-		font-size: 2.5rem;
+		font-size: 5vw;
 		font-weight: 100;
 		margin-left: 1rem;
 	}
 	i {
-		font-size: 2.5rem;
+		font-size: 4vw;
 		background: linear-gradient(to right,#f00d0d ,#fdc270);
 		
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
 }
+.main-bloc__section__food li{
+	padding-left: 0;
+	padding-right: 0;}
+
+.main-bloc__section__food__meal, .main-bloc__section__food__price{
+		font-size: 3.3vw;
+		
+		@media(min-width: 768px){
+		  font-size: 2.2vw;
+		}
+		
+	   
+	  }
+	  

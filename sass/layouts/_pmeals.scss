@@ -3,10 +3,12 @@
 	width: 92%;
 	padding-left: 0;
 	li {
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
 		@media (min-width: 768px){
 			flex-direction: row;
 			justify-content: space-between;
+			padding-left: 6vw;
+			padding-right: 6vw;
 		}
 	}
 	p {
@@ -14,13 +16,15 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		text-align: center;
+		
 		@media (min-width: 768px) {
 			text-align: left;
-			margin-left: 1rem;
-			margin-right: 1rem;
+			
+			
 		}	
 	}
 	&__price {
 		font-weight: bold;
+		
 	}
 }

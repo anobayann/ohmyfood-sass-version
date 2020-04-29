@@ -1,14 +1,7 @@
-/*Nom du restaurant sur le header de chaque menu*/
-.resto-title-header {
-  text-align: center;
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
-}
-
 /* lignes sur les cotes des titres des menus*/
 .main-bloc__section__titles {
   margin-bottom: 0;
-  max-width: 25%;
+  max-width: 40%;
   text-align: center;
 }
 .main-bloc__section__titles::before, .main-bloc__section__titles::after {
@@ -19,16 +12,11 @@
   position: absolute;
   border-radius: 80%;
 }
-@media (min-width: 768px) {
-  .main-bloc__section__titles::before, .main-bloc__section__titles::after {
-    width: 30%;
-  }
-}
 .main-bloc__section__titles::before {
-  left: 5%;
+  left: 3.5%;
 }
 .main-bloc__section__titles::after {
-  right: 5%;
+  right: 3.5%;
 }
 
 .footer__wiggle:hover {
@@ -63,12 +51,14 @@
   padding-left: 0;
 }
 .main-bloc__section__food li {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 @media (min-width: 768px) {
   .main-bloc__section__food li {
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
 }
 .main-bloc__section__food p {
@@ -79,8 +69,6 @@
 @media (min-width: 768px) {
   .main-bloc__section__food p {
     text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 }
 .main-bloc__section__food__price {
@@ -103,13 +91,15 @@
 .main-bloc {
   background-color: #ffeada;
   font-family: "kalam", cursive;
+  padding-right: 7vw;
+  padding-left: 7vw;
 }
 
 .main-bloc__header {
   align-items: center;
 }
 .main-bloc__header i {
-  font-size: 4rem;
+  font-size: 8vw;
   margin-top: 3rem;
   background: linear-gradient(to right, #f00d0d, #fdc270);
   -webkit-background-clip: text;
@@ -118,21 +108,22 @@
 
 .main-bloc__header__title {
   font-family: "Devonshire", serif;
-  font-size: 3rem;
+  font-size: 7vw;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .main-bloc__section__titles {
-  font-size: 2rem;
+  font-size: 3.5vw;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__titles {
+    font-size: 2.8vw;
+  }
 }
 .main-bloc__section__titles::before, .main-bloc__section__titles::after {
   background: black;
-}
-
-.main-bloc__section__food p {
-  font-size: 1.5rem;
 }
 
 .main-bloc__footer {
@@ -143,15 +134,29 @@
   display: flex;
   justify-content: center;
   font-family: "devonshire", cursive;
-  font-size: 2.5rem;
+  font-size: 5vw;
   font-weight: 100;
   margin-left: 1rem;
 }
 .main-bloc__footer i {
-  font-size: 2.5rem;
+  font-size: 4vw;
   background: linear-gradient(to right, #f00d0d, #fdc270);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.main-bloc__section__food li {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-bloc__section__food__meal, .main-bloc__section__food__price {
+  font-size: 3.3vw;
+}
+@media (min-width: 768px) {
+  .main-bloc__section__food__meal, .main-bloc__section__food__price {
+    font-size: 2.2vw;
+  }
 }
 
 /*# sourceMappingURL=menu1.css.map */
