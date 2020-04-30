@@ -1,5 +1,6 @@
 .footer__wiggle:hover {
-  animation: wiggle 2s -1.8s infinite;
+  -webkit-animation: wiggle 2s -1.8s infinite;
+          animation: wiggle 2s -1.8s infinite;
   /*nom, frequence, retard, nmb de fois*/
 }
 
@@ -10,4 +11,4 @@
   font-size: 3rem;
 }
 
-/*# sourceMappingURL=mlegales.css.map */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvbGF5b3V0cy9fZm9vdGVyLWFuaW1hdGlvbi1tZWFscy5zY3NzIiwibWxlZ2FsZXMuY3NzIiwiLi4vc2Fzcy9jb21wb25lbnRzL190aXRsZS1wYWdlLW5vdGRvbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLDJDQUFBO1VBQUEsbUNBQUE7RUFBb0Msc0NBQUE7QUNDeEM7O0FDSEEsbURBQUE7QUFDQTtFQUVJLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0FES0oiLCJmaWxlIjoibWxlZ2FsZXMuY3NzIn0= */
