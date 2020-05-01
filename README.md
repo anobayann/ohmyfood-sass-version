@@ -38,6 +38,7 @@ ajout d une classe food
 agrandissement des lignes du menu 4
 
 ajout de padding menu 1 main bloc
+box sizing
 ajout de padding menu 2,3,4 p
 
 reduction de la margin bottom entre li
@@ -45,5 +46,7 @@ reduction de la margin bottom entre li
 ajout d un padding bottom m2 3 4
 rajout d un padding top m2 3 4
 
+30/4
 
+margin des li
 

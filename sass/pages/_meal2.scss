@@ -7,7 +7,6 @@
     &__header {
       align-items: center;
       font-size: 3.5vw;
-      font-weight: 100;
       padding-top: 5rem;
       margin-bottom: 0;
       font-family: $police-meal2-title;
@@ -16,9 +15,7 @@
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px){
         font-size: 2.5vw;
-      }
-     
-      
+      }   
   }
 }
   
@@ -52,11 +49,8 @@
 
   .main-bloc__section__food__meal, .main-bloc__section__food__price{
    font-size: 3vw;
-   
    @media(min-width: 768px){
      font-size: 2vw;
    }
-   
-  
  }
  
