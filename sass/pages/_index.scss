@@ -17,10 +17,7 @@ nav{
       margin: 3%;
       width: 35.6vw;
       height: 50.23vw;
-      @media (min-width: 768px)
-      {
-        margin: 1.5%;
-      }
+     
        
     }
   
@@ -35,18 +32,18 @@ nav{
       
       transition: 0.5s; 
       &:hover {
-        transform: scale(1.3);
+        transform: scale(1.1);
         opacity: 0.7; 
       }
     }
   
-    h3 {
-      margin-bottom: 0;
-      font-size: 4vw;
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 3.8vw;
       
     }
-    h2{
-      font-size: 4vw;
+    .meal__menu{
+      font-size: 3.8vw;
       
     }
 }
@@ -62,28 +59,28 @@ nav{
       
     }
   
-    h3 {
+    h2 {
       margin-top: 0px;
-      margin-bottom: 1rem;
+      
       font-family: $police-meal1-title;
       font-weight: 400;
       color: black;
     }
       
   
-    h2 {
+    .meal__menu {
       font-family: $police-meal1-menu;
       text-transform: uppercase;
       font-style: italic;
       color: black;
-      margin-top: 0px;
+      
     }
   }
   
   .meal__meal-2 {
     background: $color-meal2-background;
   
-    h3 {
+    h2 {
       font-family: $police-meal2-title;
       font-size: 3vw;
       background: linear-gradient(to right, #fb5300, #3333ee);
@@ -91,7 +88,7 @@ nav{
       -webkit-text-fill-color: transparent;
     }
   
-    h2 {
+    .meal__menu {
       font-family: $police-meal2-menu;
       color: #e2a552;
       font-weight: 200;
@@ -102,14 +99,15 @@ nav{
   .meal__meal-3 {
     background: $color-meal3-background;
   
-    h3 {
+    h2 {
       font-family: $police-meal3-title;
       background: linear-gradient(to right, #262a9f, #3397af);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      padding: 0 1%;
     }
   
-    h2 {
+    .meal__menu {
       font-family: $police-meal3-menu;
       color: #3397af;
     }
@@ -118,51 +116,35 @@ nav{
   .meal__meal-4 {
     background: $color-meal4-background;
   
-    h3 {
+    h2 {
       font-family: $police-meal4-title;
       background: linear-gradient(to right, #336d33, #9fff4c);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   
-    h2 {
+    .meal__menu {
       font-family: $police-meal4-menu;
       color: #3da33d;
     }
   }
 
-
-  /*@media (max-width: 767px) and (orientation: landscape){
-    nav{
-      display: flex;
-      justify-content: center;
-
-    }
-    
-
-    .meal li{
-      
-      margin: 1vw 3vw;
-    
-      
-    
-    }
-  }*/
   @media (min-width: 768px), (max-width: 767px) and (orientation: landscape) {
     .meal li {
       width: 17.8vw;
       height: 25.12vw;
+      margin: 1.5%;
         i{
         font-size: 2.5vw;
         }
-        h2{
-        font-size: 2vw;
+        .meal__menu{
+        font-size: 1.9vw;
         }
-        h3{
-        font-size: 2vw;
+        h2{
+        font-size: 1.9vw;
         }
       }
-      .meal__meal-2 h3{
+      .meal__meal-2 h2{
         font-size: 1.5vw !important;
     }
   }

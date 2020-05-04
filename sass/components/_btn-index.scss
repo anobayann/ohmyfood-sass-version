@@ -2,17 +2,14 @@
 .btn-next {
     display: flex;
     justify-content: center;
-    &__saving {
-      display: flex;
+    &__text {
+      
       background: $color-header-background;
       color: $color-header-text;
       padding: 0.5rem 1.5rem;
       border-radius: 0.5rem;
-      justify-content: center;
-      align-items: center;
       font-weight: 500;
       font-size: 1.5rem;
-      margin-top: 0px;
       margin-bottom: 6rem;
       &:after {
         animation: dotty 2s infinite;
