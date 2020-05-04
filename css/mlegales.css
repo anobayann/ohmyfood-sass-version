@@ -1,9 +1,3 @@
-.footer__wiggle:hover {
-  -webkit-animation: wiggle 2s -1.8s infinite;
-          animation: wiggle 2s -1.8s infinite;
-  /*nom, frequence, retard, nmb de fois*/
-}
-
 /*Titre des pages prochainements, mentions legales*/
 .bigtitle {
   text-align: center;
@@ -11,4 +5,10 @@
   font-size: 3rem;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvbGF5b3V0cy9fZm9vdGVyLWFuaW1hdGlvbi1tZWFscy5zY3NzIiwibWxlZ2FsZXMuY3NzIiwiLi4vc2Fzcy9jb21wb25lbnRzL190aXRsZS1wYWdlLW5vdGRvbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLDJDQUFBO1VBQUEsbUNBQUE7RUFBb0Msc0NBQUE7QUNDeEM7O0FDSEEsbURBQUE7QUFDQTtFQUVJLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0FES0oiLCJmaWxlIjoibWxlZ2FsZXMuY3NzIn0= */
+.footer__wiggle:hover {
+  -webkit-animation: wiggle 2s -1.8s infinite;
+          animation: wiggle 2s -1.8s infinite;
+  /*nom, frequence, retard, nmb de fois*/
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvY29tcG9uZW50cy9fdGl0bGUtcGFnZS1ub3Rkb25lLnNjc3MiLCJtbGVnYWxlcy5jc3MiLCIuLi9zYXNzL2xheW91dHMvX2Zvb3Rlci1hbmltYXRpb24tbWVhbHMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtREFBQTtBQUNBO0VBRUksa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNBSjs7QUNMQTtFQUVJLDJDQUFBO1VBQUEsbUNBQUE7RUFBb0Msc0NBQUE7QURReEMiLCJmaWxlIjoibWxlZ2FsZXMuY3NzIn0= */

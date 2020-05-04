@@ -2,19 +2,19 @@
     
     background-color: $color-meal2-background;
     font-family: $police-meal2;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
     
     &__header {
       align-items: center;
       font-size: 3.5vw;
-      padding-top: 5rem;
+      padding-top: 4rem;
       margin-bottom: 0;
       font-family: $police-meal2-title;
       background: linear-gradient(to right, #fb5300, #3333ee);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media (min-width: 768px){
-        font-size: 2.5vw;
+        font-size: 2vw;
       }   
   }
 }
@@ -38,7 +38,7 @@
   .main-bloc__section__titles {
     font-size: 3vw;
     @media (min-width: 768px){
-      font-size: 2.2vw;
+      font-size: 1.76vw;
     }
     &::before, &::after {
       background-color: currentColor;  
@@ -50,7 +50,7 @@
   .main-bloc__section__food__meal, .main-bloc__section__food__price{
    font-size: 3vw;
    @media(min-width: 768px){
-     font-size: 2vw;
+     font-size: 1.6vw;
    }
  }
  

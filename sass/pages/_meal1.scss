@@ -3,8 +3,8 @@
 	
 	background-color: $color-meal1-background;
 	font-family: $police-meal1;
-	padding-right: 7vw;
-	padding-left: 7vw;
+	padding-right: 4vw;
+	padding-left: 4vw;
 	box-sizing: border-box;
 	
 }
@@ -16,6 +16,10 @@
 		background: linear-gradient(to right,#f00d0d ,#fdc270);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		@media(min-width: 768px){
+			font-size: 5vw;
+			margin-top: 4rem;
+		  }
 	}
 }
 .main-bloc__header__title {
@@ -24,12 +28,15 @@
 	font-weight: 100;
 	margin-top: 0;
 	margin-bottom: 0;
+	@media(min-width: 768px){
+		font-size: 4.5vw;
+	  }
 }
 
 .main-bloc__section__titles {
     font-size: 3.5vw;
     @media (min-width: 768px){
-      font-size: 2.8vw;
+      font-size: 1.8vw;
     }
 	&::before, &::after {
 		
@@ -43,20 +50,26 @@
 .main-bloc__footer {
 	flex-direction: row;
 	align-items: center;
-	h3 {
+	padding-bottom: 4rem;
+	p {
 		display: flex;
 		justify-content: center;
 		font-family: 'devonshire', cursive;
-		font-size: 5vw;
+		font-size: 6vw;
 		font-weight: 100;
 		margin-left: 1rem;
+		@media(min-width: 768px){
+			font-size: 3vw;
+		  }
 	}
 	i {
-		font-size: 4vw;
+		font-size: 6vw;
 		background: linear-gradient(to right,#f00d0d ,#fdc270);
-		
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		@media(min-width: 768px){
+			font-size: 4vw;
+		  }
 	}
 }
 .main-bloc__section__food li{
@@ -67,7 +80,7 @@
 		font-size: 3.3vw;
 		
 		@media(min-width: 768px){
-		  font-size: 2.2vw;
+		  font-size: 1.5vw;
 		}
 		
 	   
