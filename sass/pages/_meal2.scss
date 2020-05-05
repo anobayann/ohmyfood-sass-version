@@ -6,7 +6,7 @@
     
     &__header {
       align-items: center;
-      font-size: 3.5vw;
+      font-size: 4vw;
       padding-top: 4rem;
       margin-bottom: 0;
       font-family: $police-meal2-title;
@@ -36,7 +36,7 @@
   }
   
   .main-bloc__section__titles {
-    font-size: 3vw;
+    font-size: 3.3vw;
     @media (min-width: 768px){
       font-size: 1.76vw;
     }
@@ -48,7 +48,7 @@
   
 
   .main-bloc__section__food__meal, .main-bloc__section__food__price{
-   font-size: 3vw;
+   font-size: 3.1vw;
    @media(min-width: 768px){
      font-size: 1.6vw;
    }

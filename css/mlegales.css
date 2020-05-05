@@ -6,9 +6,8 @@
 }
 
 .footer__wiggle:hover {
-  -webkit-animation: wiggle 2s -1.8s infinite;
-          animation: wiggle 2s -1.8s infinite;
+  animation: wiggle 2s -1.8s infinite;
   /*nom, frequence, retard, nmb de fois*/
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvY29tcG9uZW50cy9fdGl0bGUtcGFnZS1ub3Rkb25lLnNjc3MiLCJtbGVnYWxlcy5jc3MiLCIuLi9zYXNzL2xheW91dHMvX2Zvb3Rlci1hbmltYXRpb24tbWVhbHMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtREFBQTtBQUNBO0VBRUksa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNBSjs7QUNMQTtFQUVJLDJDQUFBO1VBQUEsbUNBQUE7RUFBb0Msc0NBQUE7QURReEMiLCJmaWxlIjoibWxlZ2FsZXMuY3NzIn0= */
+/*# sourceMappingURL=mlegales.css.map */
